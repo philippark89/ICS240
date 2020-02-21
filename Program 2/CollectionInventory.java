@@ -8,7 +8,7 @@ import java.util.Iterator;
 //Invariant of the InventoryArrayBAg
 	//	1. The number of elements in the Bag is the instance variable manyItems.
 	//	2. The elements in the Bag are stored in data[0] through data[manyItems-1].
-	//	3.	The current item is found at data[curentIndex]; If there is no current item, currentIndex == manyItems
+	//	3. The current item is found at data[curentIndex]; If there is no current item, currentIndex == manyItems
 	//	4. The data in this class will always be in an Ascending Order.
 
 public class CollectionInventory implements Iterable<Inventory> {
@@ -52,12 +52,6 @@ public class CollectionInventory implements Iterable<Inventory> {
 	 */
 	public int size() {
 		return this.manyItems;
-//		int sizeOfArray = 0;
-//		for (int i = 0; i < item.length; i++)
-//			if (item[i] != null) 
-//				sizeOfArray++;
-//		
-//		return sizeOfArray;
 	}
 	
 	/**
